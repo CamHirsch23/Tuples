@@ -1,0 +1,12 @@
+def process_orders(orders):
+    for order in orders:
+        customer_name, product, quantity = order
+        print(f"Customer: {customer_name}, Product: {product}, Quantity: {quantity}")
+
+# Example usage
+orders = [
+    ("Alice", "Laptop", 1),
+    ("Bob", "Camera", 2),
+    # More orders...
+]
+process_orders(orders)
